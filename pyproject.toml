@@ -1,0 +1,18 @@
+[project]
+name = "ml"
+version = "0.1.0"
+description = "HTU machine learning course homework code"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "pandas>=3.0.0",
+    "scikit-learn>=1.8.0",
+    "tensorboard>=2.20.0",
+    "torch>=2.10.0",
+    "tqdm>=4.67.1",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.mirrors.ustc.edu.cn/simple/"
+default = true
