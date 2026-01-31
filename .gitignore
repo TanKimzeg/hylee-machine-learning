@@ -9,3 +9,7 @@ wheels/
 # Virtual environments
 .venv
 
+# Data files
+*.csv
+models/
+runs/
